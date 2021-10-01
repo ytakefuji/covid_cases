@@ -12,6 +12,8 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
    lines: left axis for daily cases, right axis for daily deaths.
 4. Draw a dual-axis graph with daily cases and daily deaths lines
    with curve-fitting lines respectively.
+5. Draw a dual-axis graph with extreme points (max and min points)
+6. Draw a dual-axis graph with extreme points using ticks.
 
 Hints:
 cases=d[d.location=='Japan']['new_cases']
