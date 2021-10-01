@@ -18,6 +18,8 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
 Hints:
 cases=d[d.location=='Japan']['new_cases']
 
+np.poly1d(...)
+
 fig,ax1 = plt.subplots()
 x1.set_xticklabels(...)
 ax1.set_xlabel(...)
@@ -35,6 +37,8 @@ from scipy import signal
 signal.argrelmax(...)
 signal.argrelmin(...)
 
+from sklearn.metrics import r2_score as r2
+import matplotlib.patches as mpatches
 handles,labels = ax1.get_legend_handles_labels()
 handles.append(...)
 plt.legend(handles=handles)
