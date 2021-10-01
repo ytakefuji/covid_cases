@@ -31,6 +31,10 @@ ax2.set_ylabel(...)
 ax2.plot(...)
 plt.savefig(...)
 
+from scipy import signal
+signal.argrelmax(...)
+signal.argrelmin(...)
+
 
 <img src='oneaxis.png' width=320 height=240> <img src='2axis.png' width=320 height=240>
 <img src='Japanlag.png' width=320 height=240> 
