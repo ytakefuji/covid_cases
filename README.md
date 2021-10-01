@@ -16,6 +16,8 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
 6. Draw a dual-axis graph with extreme points using ticks and legend.
 
 Hints:
+import pandas as pd
+d=pd.read_csv('owid-covid-data.csv')
 cases=d[d.location=='Japan']['new_cases']
 
 np.poly1d(...)
