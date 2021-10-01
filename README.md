@@ -5,7 +5,7 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
 
 <pre>
 1. Draw a graph of Japan on daily cases using the last 200 days 
-   from today. 
+   from today with owid-covid-data.csv. 
 2. Draw a single-axis graph with two lines of daily cases 
    and daily deaths using the last 200 days from today in Japan.
 3. Draw a dual-axis graph with daily cases and daily deaths 
