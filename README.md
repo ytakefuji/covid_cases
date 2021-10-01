@@ -8,8 +8,8 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
    from today. 
 2. Draw a single-axis graph with two lines of daily cases 
    and daily deaths using the last 200 days from today in Japan.
-3. Draw a dual-axis graph with daily cases and daily deaths lines: 
-   left axis for daily cases, right axis for daily deaths.
+3. Draw a dual-axis graph with daily cases and daily deaths 
+   lines: left axis for daily cases, right axis for daily deaths.
 
 Hints:
 cases=d[d.location=='Japan']['new_cases']
