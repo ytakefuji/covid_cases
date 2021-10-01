@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
 4. Draw a dual-axis graph with daily cases and daily deaths lines
    with curve-fitting lines respectively.
 5. Draw a dual-axis graph with extreme points (max and min points)
-6. Draw a dual-axis graph with extreme points using ticks.
+6. Draw a dual-axis graph with extreme points using ticks and legend.
 
 Hints:
 cases=d[d.location=='Japan']['new_cases']
@@ -34,6 +34,10 @@ plt.savefig(...)
 from scipy import signal
 signal.argrelmax(...)
 signal.argrelmin(...)
+
+handles,labels = ax1.get_legend_handles_labels()
+handles.append(...)
+plt.legend(handles=handles)
 
 
 <img src='oneaxis.png' width=320 height=240> <img src='2axis.png' width=320 height=240>
