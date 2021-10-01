@@ -10,11 +10,14 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
    and daily deaths using the last 200 days from today in Japan.
 3. Draw a dual-axis graph with daily cases and daily deaths 
    lines: left axis for daily cases, right axis for daily deaths.
+4. Draw a dual-axis graph with daily cases and daily deaths lines
+   with curve-fitting lines respectively.
 
 Hints:
 cases=d[d.location=='Japan']['new_cases']
 
 <img src='oneaxis.png' width=320 height=240> <img src='2axis.png' width=320 height=240>
+<img src='Japanlag.png' width=320 height=240> 
 
 
 </pre>
