@@ -17,6 +17,19 @@ https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-cov
 
 Hints:
 cases=d[d.location=='Japan']['new_cases']
+fig,ax1 = plt.subplots()
+x1.set_xticklabels(...)
+ax1.set_xlabel(...)
+ax1.set_ylabel(...)
+ax1.plot(...)
+ax2=ax1.twinx()
+ax2.set_xlabel(...)
+ax2.set_xticks(...)
+ax2.set_xticklabels(...)
+ax2.set_ylabel(...)
+ax2.plot(...)
+plt.savefig(...)
+
 
 <img src='oneaxis.png' width=320 height=240> <img src='2axis.png' width=320 height=240>
 <img src='Japanlag.png' width=320 height=240> 
